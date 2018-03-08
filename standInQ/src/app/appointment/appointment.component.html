@@ -1,0 +1,36 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td> A private property on this component: {{_appointmants.name}} </td>
+      <td> A public variable: {{specialAppointmant}}</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>
+        A public property changed by parent-component: {{parentCompData}}
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>
+        <p>
+          <button (click)=handleClick() type="button" class="btn btn-primary">Change on parent component</button>
+        </p>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
